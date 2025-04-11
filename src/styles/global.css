@@ -18,4 +18,10 @@ html {
   h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
+    color : #d62b2b
+  }
+  h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color : #3ae7d9
   }
