@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 const pageTitle = 'Titulo de Pagina';
+const pageSubTitle = 'Subtitulo de Pagina';
 ---
 
 <html lang="en">
@@ -11,7 +12,9 @@ const pageTitle = 'Titulo de Pagina';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-	<title> {pageTitle}Astro practic  </title>
+	<title> {pageTitle}Astro practica  </title>
+	<br/>
+	<br/>
 	</head>
 	<body>
 		
@@ -19,6 +22,7 @@ const pageTitle = 'Titulo de Pagina';
 
 <h1 >Home</h1>
 <h3>{pageTitle}</h3>
+<h4>{pageSubTitle}</h4>
 <h2>... and my new Astro site!</h2>		
 		<h2>Mi Practica de Astro 2025  </h2>
 		<h2 class="text-3x1 font-bold text-color red">
